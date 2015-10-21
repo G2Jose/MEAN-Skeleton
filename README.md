@@ -11,6 +11,10 @@ cd server
 npm install
 cd ..
 ```
+- Ensure mongodb is running on port 27017
+```
+mongod --dbpath /tmp/
+```
 - Start server
 ```
 grunt serve
